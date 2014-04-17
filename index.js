@@ -1,6 +1,6 @@
-var Expression = require('expression');
-var parse = require('format-parser');
-var unique = require('uniq');
+var Expression = require('ripplejs-expression');
+var parse = require('component-format-parser');
+var unique = require('yields-uniq');
 
 /**
  * Run a value through all filters

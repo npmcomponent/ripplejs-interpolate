@@ -1,27 +1,14 @@
 {
   "name": "ripplejs-interpolate",
+  "description": "Interpolate a string using expressions",
   "version": "0.4.3",
-  "description": "Interpolate expressions in a string",
+  "keywords": [],
   "main": "index.js",
-  "directories": {
-    "test": "test"
+  "dependencies": {
+    "ripplejs-expression": "git://github.com/npmcomponent/ripplejs-expression.git",
+    "component-format-parser": "git://github.com/npmcomponent/component-format-parser.git",
+    "yields-uniq": "git://github.com/npmcomponent/yields-uniq.git",
+    "component-props": "git://github.com/npmcomponent/component-props.git"
   },
-  "scripts": {
-    "test": "make test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ripplejs/interpolate.git"
-  },
-  "keywords": [
-    "interpolation",
-    "template",
-    "string",
-    "expression"
-  ],
-  "author": "Anthony Short",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ripplejs/interpolate/issues"
-  }
+  "license": "MIT"
 }
